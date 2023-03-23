@@ -15,7 +15,7 @@ Mail
 Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo.
 
 ## Steps
-- Creare un promp e chiedere la mail all'utente;
 - Creare un array con tutte le mail di chi può accedere;
+- Creare un prompt e chiedere la mail all'utente;
 - Se la mail utente è presente allora stampare un messaggio di benvenuto;
 - Altrimenti accesso negato;
