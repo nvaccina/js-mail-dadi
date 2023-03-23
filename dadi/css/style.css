@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 20px auto;
+  padding: 30px;
+  width: 600px;
+  background-color:rgb(0, 238, 255);
+  text-align: center;
+  border-radius: 10px;
+}
+.giocatori{
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user, .computer{
+  padding: 0 20px;
+}

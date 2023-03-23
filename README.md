@@ -4,6 +4,7 @@ Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 ## Steps
+- Creare un prompt che chieda il nome al giocatore
 - Estrarre un numero random da 1 a 6 per il giocatore;
 - Estrarre un numero random da 1 a 6 per il computer;
 - Se il numero del giocatore > numero del computer allora il giocatore ha vinto;
