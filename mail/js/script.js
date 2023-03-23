@@ -12,6 +12,24 @@ const listaMail = [
 
 console.log(listaMail);
 
-const mailAccesso =prompt('Inserisci il tuo indirizzo mail','yourname@user.com');
+const mailAccesso = prompt('Inserisci il tuo indirizzo mail','yourname@user.com');
 
-console.log(mailAccesso);
+
+for (let i = 0; i < listaMail.length; i++){
+  
+  
+  const messageBenvenuto = `
+  BENVENUTO NEL PROGRAMMA
+  `
+  const messageNegato = `
+  IL TUO ACCESSO E' STATO NEGATO
+  `
+
+  if (listaMail.includes(mailAccesso)){
+    document.getElementById('output').innerHTML = messageBenvenuto;
+  }else{
+    document.getElementById('output').innerHTML = messageNegato;
+    output.classList.add('denied');
+  }
+}
+
