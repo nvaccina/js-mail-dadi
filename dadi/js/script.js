@@ -1,8 +1,8 @@
 const nameUser = prompt('Inserisci il tuo nome');
 
-const userRandom = Math.floor((Math.random()* 6) + 1);
+const userRandom = Math.ceil(Math.random()* 6);
 
-const computerRandom = Math.floor((Math.random()* 6) + 1);
+const computerRandom = Math.ceil(Math.random()* 6);
 
 document.getElementById('numberUser').innerHTML = userRandom;
 document.getElementById('numberComputer').innerHTML = computerRandom;
@@ -14,7 +14,7 @@ const messageUserLose = `
 Mi dispiace ${nameUser} hai perso!
 `
 const messageNobodyWin = `
-Mi dispiace è pari!
+Hai pareggiato!
 `
 
 if (userRandom > computerRandom){
